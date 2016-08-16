@@ -169,8 +169,18 @@ module.exports = {
                         })
                     ]);
                 }
-            }
+            },
 
+            google_cloud: function(configuration) {
+                var ips = _.map(_.flatten([configuration.leaders.instances, configuration.followers.instances]), function(instance) {
+                    if(instance.metadata && instance.metadata.networkInterfaces) {
+                        var nics = _.indexBy(instance.metadata.networkInterfaces, "name");
+                        return nics.nic0 && [nics.nic0.networkIP, "32"].join("/");
+                    }
+                });
+
+                return _.compact(ips);
+            }
         }
 
         cloud.amazon_web_services = cloud.aws;

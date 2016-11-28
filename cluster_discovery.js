@@ -9,7 +9,7 @@ module.exports = {
 
     discover: function(cluster_id, config, callback) {
         const options = {
-            baseUrl: constants.CLOUD_API_BASE_URL,
+            baseUrl: constants.environment.CLOUD_API_BASE_URL,
             url: `/v2/organizations/${config.organization}/clusters/${cluster_id}/instances/ips`,
             method: 'GET',
             timeout: 15000,

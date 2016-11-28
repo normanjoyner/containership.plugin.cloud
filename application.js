@@ -42,10 +42,10 @@ module.exports = new ContainershipPlugin({
                 commands: commands,
                 middleware: [
                     function(options, fn) {
-                        if(options.url.indexOf(constants.CLOUD_API_BASE_URL) == 0) {
+                        if(options.url.indexOf(constants.environment.CLOUD_API_BASE_URL) == 0) {
                             let original_url = options.url;
                             options.url = [
-                                constants.CLOUD_API_BASE_URL,
+                                constants.environment.CLOUD_API_BASE_URL,
                                 'v2',
                                 'organizations',
                                 options.headers['x-containership-cloud-organization'],

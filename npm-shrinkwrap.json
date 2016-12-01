@@ -3,9 +3,9 @@
   "version": "0.9.2",
   "dependencies": {
     "@containership/containership.cloud.constants": {
-      "version": "1.1.1",
-      "from": "@containership/containership.cloud.constants@1.1.1",
-      "resolved": "https://registry.npmjs.org/@containership/containership.cloud.constants/-/containership.cloud.constants-1.1.1.tgz"
+      "version": "1.1.2",
+      "from": "@containership/containership.cloud.constants@1.1.2",
+      "resolved": "https://registry.npmjs.org/@containership/containership.cloud.constants/-/containership.cloud.constants-1.1.2.tgz"
     },
     "acorn": {
       "version": "3.3.0",

@@ -603,6 +603,23 @@
       "from": "ncp@>=1.0.0 <1.1.0",
       "resolved": "https://registry.npmjs.org/ncp/-/ncp-1.0.1.tgz"
     },
+    "node-schedule": {
+      "version": "1.2.0",
+      "from": "node-schedule@latest",
+      "resolved": "https://registry.npmjs.org/node-schedule/-/node-schedule-1.2.0.tgz",
+      "dependencies": {
+        "cron-parser": {
+          "version": "1.1.0",
+          "from": "cron-parser@1.1.0",
+          "resolved": "https://registry.npmjs.org/cron-parser/-/cron-parser-1.1.0.tgz"
+        },
+        "long-timeout": {
+          "version": "0.0.2",
+          "from": "long-timeout@0.0.2",
+          "resolved": "https://registry.npmjs.org/long-timeout/-/long-timeout-0.0.2.tgz"
+        }
+      }
+    },
     "nomnom": {
       "version": "1.8.1",
       "from": "https://registry.npmjs.org/nomnom/-/nomnom-1.8.1.tgz",

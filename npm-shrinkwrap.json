@@ -702,15 +702,15 @@
           "from": "https://registry.npmjs.org/path-type/-/path-type-1.1.0.tgz",
           "resolved": "https://registry.npmjs.org/path-type/-/path-type-1.1.0.tgz"
         },
-        "read-pkg-up": {
-          "version": "1.0.1",
-          "from": "https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-1.0.1.tgz",
-          "resolved": "https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-1.0.1.tgz"
-        },
         "read-pkg": {
           "version": "1.1.0",
           "from": "https://registry.npmjs.org/read-pkg/-/read-pkg-1.1.0.tgz",
           "resolved": "https://registry.npmjs.org/read-pkg/-/read-pkg-1.1.0.tgz"
+        },
+        "read-pkg-up": {
+          "version": "1.0.1",
+          "from": "https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-1.0.1.tgz",
+          "resolved": "https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-1.0.1.tgz"
         },
         "require-directory": {
           "version": "2.1.1",
@@ -762,15 +762,15 @@
           "from": "https://registry.npmjs.org/window-size/-/window-size-0.2.0.tgz",
           "resolved": "https://registry.npmjs.org/window-size/-/window-size-0.2.0.tgz"
         },
-        "y18n": {
-          "version": "3.2.1",
-          "from": "https://registry.npmjs.org/y18n/-/y18n-3.2.1.tgz",
-          "resolved": "https://registry.npmjs.org/y18n/-/y18n-3.2.1.tgz"
-        },
         "wrap-ansi": {
           "version": "2.0.0",
           "from": "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-2.0.0.tgz",
           "resolved": "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-2.0.0.tgz"
+        },
+        "y18n": {
+          "version": "3.2.1",
+          "from": "https://registry.npmjs.org/y18n/-/y18n-3.2.1.tgz",
+          "resolved": "https://registry.npmjs.org/y18n/-/y18n-3.2.1.tgz"
         },
         "yargs-parser": {
           "version": "3.2.0",
@@ -1468,9 +1468,9 @@
       }
     },
     "tesserarius": {
-      "version": "0.0.3",
-      "from": "tesserarius@latest",
-      "resolved": "https://registry.npmjs.org/tesserarius/-/tesserarius-0.0.3.tgz",
+      "version": "0.1.0",
+      "from": "tesserarius@0.1.0",
+      "resolved": "https://registry.npmjs.org/tesserarius/-/tesserarius-0.1.0.tgz",
       "dependencies": {
         "async": {
           "version": "1.5.2",
@@ -1487,41 +1487,6 @@
           "from": "https://registry.npmjs.org/lodash/-/lodash-4.6.1.tgz",
           "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.6.1.tgz"
         },
-        "mocha": {
-          "version": "2.4.5",
-          "from": "https://registry.npmjs.org/mocha/-/mocha-2.4.5.tgz",
-          "resolved": "https://registry.npmjs.org/mocha/-/mocha-2.4.5.tgz"
-        },
-        "commander": {
-          "version": "2.3.0",
-          "from": "https://registry.npmjs.org/commander/-/commander-2.3.0.tgz",
-          "resolved": "https://registry.npmjs.org/commander/-/commander-2.3.0.tgz"
-        },
-        "diff": {
-          "version": "1.4.0",
-          "from": "https://registry.npmjs.org/diff/-/diff-1.4.0.tgz",
-          "resolved": "https://registry.npmjs.org/diff/-/diff-1.4.0.tgz"
-        },
-        "escape-string-regexp": {
-          "version": "1.0.2",
-          "from": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.2.tgz",
-          "resolved": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.2.tgz"
-        },
-        "graceful-fs": {
-          "version": "2.0.3",
-          "from": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-2.0.3.tgz",
-          "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-2.0.3.tgz"
-        },
-        "glob": {
-          "version": "3.2.3",
-          "from": "https://registry.npmjs.org/glob/-/glob-3.2.3.tgz",
-          "resolved": "https://registry.npmjs.org/glob/-/glob-3.2.3.tgz"
-        },
-        "growl": {
-          "version": "1.8.1",
-          "from": "https://registry.npmjs.org/growl/-/growl-1.8.1.tgz",
-          "resolved": "https://registry.npmjs.org/growl/-/growl-1.8.1.tgz"
-        },
         "hoek": {
           "version": "2.16.3",
           "from": "https://registry.npmjs.org/hoek/-/hoek-2.16.3.tgz",
@@ -1532,52 +1497,15 @@
           "from": "https://registry.npmjs.org/isemail/-/isemail-1.2.0.tgz",
           "resolved": "https://registry.npmjs.org/isemail/-/isemail-1.2.0.tgz"
         },
-        "lru-cache": {
-          "version": "2.7.3",
-          "from": "https://registry.npmjs.org/lru-cache/-/lru-cache-2.7.3.tgz",
-          "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-2.7.3.tgz"
-        },
-        "minimatch": {
-          "version": "0.2.14",
-          "from": "https://registry.npmjs.org/minimatch/-/minimatch-0.2.14.tgz",
-          "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-0.2.14.tgz"
-        },
         "moment": {
           "version": "2.12.0",
           "from": "https://registry.npmjs.org/moment/-/moment-2.12.0.tgz",
           "resolved": "https://registry.npmjs.org/moment/-/moment-2.12.0.tgz"
         },
-        "sigmund": {
-          "version": "1.0.1",
-          "from": "https://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz",
-          "resolved": "https://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz"
-        },
-        "supports-color": {
-          "version": "1.2.0",
-          "from": "https://registry.npmjs.org/supports-color/-/supports-color-1.2.0.tgz",
-          "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-1.2.0.tgz"
-        },
         "topo": {
           "version": "1.1.0",
           "from": "https://registry.npmjs.org/topo/-/topo-1.1.0.tgz",
           "resolved": "https://registry.npmjs.org/topo/-/topo-1.1.0.tgz"
-        },
-        "jade": {
-          "version": "0.26.3",
-          "from": "https://registry.npmjs.org/jade/-/jade-0.26.3.tgz",
-          "resolved": "https://registry.npmjs.org/jade/-/jade-0.26.3.tgz",
-          "dependencies": {
-            "commander": {
-              "version": "0.6.1",
-              "from": "https://registry.npmjs.org/commander/-/commander-0.6.1.tgz",
-              "resolved": "https://registry.npmjs.org/commander/-/commander-0.6.1.tgz"
-            },
-            "mkdirp": {
-              "version": "0.3.0",
-              "from": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.0.tgz",
-              "resolved": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.0.tgz"
-            }
-          }
         }
       }
     },
